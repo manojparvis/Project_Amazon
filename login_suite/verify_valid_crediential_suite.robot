@@ -18,6 +18,10 @@ Valid Credential Template
         Input Text    xpath=//input[@placeholder='Email']    ${email}
         Input Text    xpath=//input[@placeholder='Password']    ${password}
         Click Element    xpath=//span[@class='ladda-label']
+        Click Element    xpath=//a[@href='https://phptravels.net/hotels']
+        Execute Javascript         document.querySelector('[id=checkin]').value='30-05-2022'
+        Execute Javascript         document.querySelector('[id=checkout]').value='03-06-2022'
+
 
 
 

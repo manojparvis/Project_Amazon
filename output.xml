@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220512 11:47:19.254" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220512 12:15:42.969" rpa="false" schemaversion="3">
 <suite id="s1" name="Verify Valid Crediential Suite" source="C:\LT6\Project_Php_Travel\login_suite\verify_valid_crediential_suite.robot">
 <test id="s1-t1" name="TC1" line="12">
 <kw name="Launch Browser" library="CommonFunctionality_resource" type="SETUP">
@@ -7,42 +7,42 @@
 <arg>path</arg>
 <arg>${EXECDIR}${/}driver</arg>
 <doc>Appends given ``values`` to environment variable ``name``.</doc>
-<msg timestamp="20220512 11:47:20.504" level="INFO">Environment variable 'path' set to value 'C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\MANOJ\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\MANOJ\AppData\Local\Programs\Python\Python310\;C:\Users\MANOJ\AppData\Local\Microsoft\WindowsApps;;C:\Users\MANOJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\LT6\Project_Php_Travel\driver'.</msg>
-<status status="PASS" starttime="20220512 11:47:20.504" endtime="20220512 11:47:20.504"/>
+<msg timestamp="20220512 12:15:44.919" level="INFO">Environment variable 'path' set to value 'C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\MANOJ\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\MANOJ\AppData\Local\Programs\Python\Python310\;C:\Users\MANOJ\AppData\Local\Microsoft\WindowsApps;;C:\Users\MANOJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\LT6\Project_Php_Travel\driver'.</msg>
+<status status="PASS" starttime="20220512 12:15:44.919" endtime="20220512 12:15:44.919"/>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>browser=${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220512 11:47:20.504" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20220512 11:47:20.504" endtime="20220512 11:47:22.259"/>
+<msg timestamp="20220512 12:15:44.919" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20220512 12:15:44.919" endtime="20220512 12:15:48.544"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220512 11:47:22.259" endtime="20220512 11:47:22.429"/>
+<status status="PASS" starttime="20220512 12:15:48.544" endtime="20220512 12:15:48.810"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>30s</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20220512 11:47:22.429" endtime="20220512 11:47:22.433"/>
+<status status="PASS" starttime="20220512 12:15:48.810" endtime="20220512 12:15:48.814"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>${EXECDIR}${/}screenshot</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20220512 11:47:22.433" endtime="20220512 11:47:22.433"/>
+<status status="PASS" starttime="20220512 12:15:48.814" endtime="20220512 12:15:48.814"/>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <arg>url=${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20220512 11:47:22.433" level="INFO">Opening url 'https://phptravels.net/'</msg>
-<status status="PASS" starttime="20220512 11:47:22.433" endtime="20220512 11:47:26.015"/>
+<msg timestamp="20220512 12:15:48.819" level="INFO">Opening url 'https://phptravels.net/'</msg>
+<status status="PASS" starttime="20220512 12:15:48.814" endtime="20220512 12:15:55.886"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//button[@id='cookie_stop']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220512 11:47:26.016" level="INFO">Clicking element 'xpath=//button[@id='cookie_stop']'.</msg>
-<status status="PASS" starttime="20220512 11:47:26.015" endtime="20220512 11:47:26.080"/>
+<msg timestamp="20220512 12:15:55.889" level="INFO">Clicking element 'xpath=//button[@id='cookie_stop']'.</msg>
+<status status="PASS" starttime="20220512 12:15:55.888" endtime="20220512 12:15:56.025"/>
 </kw>
-<status status="PASS" starttime="20220512 11:47:20.504" endtime="20220512 11:47:26.081"/>
+<status status="PASS" starttime="20220512 12:15:44.919" endtime="20220512 12:15:56.026"/>
 </kw>
 <kw name="Valid Credential Template">
 <arg>svel159753@gmail.com</arg>
@@ -50,35 +50,57 @@
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>link=Login</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220512 11:47:26.082" level="INFO">Clicking element 'link=Login'.</msg>
-<status status="PASS" starttime="20220512 11:47:26.082" endtime="20220512 11:47:27.426"/>
+<msg timestamp="20220512 12:15:56.030" level="INFO">Clicking element 'link=Login'.</msg>
+<status status="PASS" starttime="20220512 12:15:56.030" endtime="20220512 12:15:57.609"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath=//input[@placeholder='Email']</arg>
 <arg>${email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220512 11:47:27.427" level="INFO">Typing text 'svel159753@gmail.com' into text field 'xpath=//input[@placeholder='Email']'.</msg>
-<status status="PASS" starttime="20220512 11:47:27.426" endtime="20220512 11:47:27.551"/>
+<msg timestamp="20220512 12:15:57.611" level="INFO">Typing text 'svel159753@gmail.com' into text field 'xpath=//input[@placeholder='Email']'.</msg>
+<status status="PASS" starttime="20220512 12:15:57.609" endtime="20220512 12:15:57.795"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>xpath=//input[@placeholder='Password']</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220512 11:47:27.552" level="INFO">Typing text 'password@123' into text field 'xpath=//input[@placeholder='Password']'.</msg>
-<status status="PASS" starttime="20220512 11:47:27.551" endtime="20220512 11:47:27.655"/>
+<msg timestamp="20220512 12:15:57.796" level="INFO">Typing text 'password@123' into text field 'xpath=//input[@placeholder='Password']'.</msg>
+<status status="PASS" starttime="20220512 12:15:57.796" endtime="20220512 12:15:57.955"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath=//span[@class='ladda-label']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220512 11:47:27.655" level="INFO">Clicking element 'xpath=//span[@class='ladda-label']'.</msg>
-<status status="PASS" starttime="20220512 11:47:27.655" endtime="20220512 11:47:29.608"/>
+<msg timestamp="20220512 12:15:57.956" level="INFO">Clicking element 'xpath=//span[@class='ladda-label']'.</msg>
+<status status="PASS" starttime="20220512 12:15:57.955" endtime="20220512 12:16:00.398"/>
 </kw>
-<status status="PASS" starttime="20220512 11:47:26.081" endtime="20220512 11:47:29.609"/>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@href='https://phptravels.net/hotels']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220512 12:16:00.399" level="INFO">Clicking element 'xpath=//a[@href='https://phptravels.net/hotels']'.</msg>
+<status status="PASS" starttime="20220512 12:16:00.398" endtime="20220512 12:16:01.646"/>
 </kw>
-<status status="PASS" starttime="20220512 11:47:20.504" endtime="20220512 11:47:29.610"/>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>document.querySelector('[id=checkin]').value='30-05-2022'</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20220512 12:16:01.650" level="INFO">Executing JavaScript:
+document.querySelector('[id=checkin]').value='30-05-2022'
+Without any arguments.</msg>
+<status status="PASS" starttime="20220512 12:16:01.648" endtime="20220512 12:16:01.656"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>document.querySelector('[id=checkout]').value='03-06-2022'</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20220512 12:16:01.657" level="INFO">Executing JavaScript:
+document.querySelector('[id=checkout]').value='03-06-2022'
+Without any arguments.</msg>
+<status status="PASS" starttime="20220512 12:16:01.656" endtime="20220512 12:16:01.661"/>
+</kw>
+<status status="PASS" starttime="20220512 12:15:56.027" endtime="20220512 12:16:01.662"/>
+</kw>
+<status status="PASS" starttime="20220512 12:15:44.909" endtime="20220512 12:16:01.662"/>
 </test>
 <doc>this suite will handle Valid credential</doc>
-<status status="PASS" starttime="20220512 11:47:19.254" endtime="20220512 11:47:29.612"/>
+<status status="PASS" starttime="20220512 12:15:42.979" endtime="20220512 12:16:01.667"/>
 </suite>
 <statistics>
 <total>
